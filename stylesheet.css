@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+  background-color: rgb(255,150,60)
+}
+#lvl {
+  width: 400px;
+  font-size: 24px;
+  color: white;
+  font-family: Montserrat;
+}
+
+.cell {
+  height: 150px;
+  width: 150px;
+  float: left;
+  border-style: none;
+  outline: none;
+}
+
+#case {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: 150px auto;
+  background-color: black;
+  border-radius: 90%;
+}
+
+#circle {
+  height: 160px;
+  width: 160px;
+  background-color: black;
+  position: absolute;
+  border-radius: 100%;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+
+#simon {
+  font-size: 36px;
+  margin-top: 58px;
+  color: white;
+  font-family: Montserrat;
+}
+#simon span{
+  font-size: 12px;
+}
+
+#outter-circle {
+  height: 300px;
+  width: 300px;
+  border: 30px solid black;
+  position: absolute;
+  z-index: -1;
+  border-radius: 100%;
+  margin-left:-30px;
+  margin-top: -30px;
+}
+
+#\30 {
+  border-top-left-radius: 100%;
+  border-right: 6px solid black;
+  border-bottom: 6px solid black;
+}
+
+#\31 {
+  border-top-right-radius: 100%;
+  border-left: 6px solid black;
+  border-bottom: 6px solid black;
+}
+
+#\32 {
+  border-bottom-left-radius: 100%;
+  border-right: 6px solid black;
+  border-top: 6px solid black;
+}
+
+#\33 {
+  border-bottom-right-radius: 100%;
+  border-left: 6px solid black;
+  border-top: 6px solid black;
+}
+
+.blue.light {
+  background-color: rgb(0,180,255);
+}
+
+.blue {
+  background-color: rgb(0,100,200);
+}
+
+.red.light {
+  background-color: rgb(255,50,0);
+}
+
+.red {
+  background-color: rgb(200,50,0);
+}
+
+.green.light {
+  background-color: rgb(0,255,100);
+}
+
+.green {
+  background-color: rgb(0,200,100);
+}
+
+.yellow.light {
+  background-color: rgb(255,255,0);
+}
+
+.yellow {
+  background-color: rgb(210,210,0);
+}
+
+.strictGreen {
+  background-color: rgb(0,255,100);
+}
+
+.option {
+  width: 50px;
+  height: 20px;
+  margin-top: 5px;
+  border-style: none;
+  border-radius: 100px;
+  font-size: 13px;
+  font-family: Montserrat;
+  outline: none;
+}
+
+
+
